@@ -1,7 +1,4 @@
-repositories {
-    google()
-    mavenCentral()
-}
+
 
 plugins {
     id("com.android.application")
