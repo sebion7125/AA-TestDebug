@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<automotiveApp xmlns:app="http://schemas.android.com/apk/res-auto"
-    app:appService="com.example.aatestmenu.HelloAutoService"
-    app:category="NAVIGATION" />
+<automotiveApp
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:category="MEDIA"
+    app:appService="com.example.aatestmenu.MyCarService" />
