@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AA TestMenu</string>
+    <string name="menu_title">Test Menü</string>
+    <string name="row_status">Systemstatus</string>
+    <string name="row_player">Audio-Demo</string>
+    <string name="row_settings">Einstellungen</string>
+    <string name="screen_status_title">Status</string>
+    <string name="screen_player_title">Player</string>
+    <string name="screen_settings_title">Einstellungen</string>
+</resources>
