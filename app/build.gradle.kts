@@ -1,3 +1,8 @@
+repositories {
+    google()
+    mavenCentral()
+}
+
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
@@ -43,7 +48,8 @@ dependencies {
     implementation("com.google.android.material:material:1.12.0")
 
     // Car App Library
-    implementation("androidx.car.app:app:1.2.1")
+    implementation("androidx.car.app:app:1.1.0-beta01")
+
 
 
     // Optional: lifecycle
