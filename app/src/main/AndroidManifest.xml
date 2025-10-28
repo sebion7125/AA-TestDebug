@@ -9,15 +9,17 @@
         android:theme="@style/Theme.Material3.DayNight.NoActionBar">
         
         <!-- Entry point for Android Auto (Car App Library) -->
-        <service
-            android:name=".HelloAutoService"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="androidx.car.app.CarAppService" />
-            </intent-filter>
-            <meta-data
-                android:name="androidx.car.app"
-                android:resource="@xml/automotive_app_desc" />
+       <service
+    android:name=".HelloAutoService"
+    android:exported="true">
+    <intent-filter>
+        <action android:name="androidx.car.app.CarAppService" />
+        <category android:name="androidx.car.app.category.NAVIGATION" />
+    </intent-filter>
+    <meta-data
+        android:name="androidx.car.app"
+        android:resource="@xml/automotive_app_desc" />
         </service>
+
     </application>
 </manifest>
