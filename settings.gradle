@@ -1,14 +1,8 @@
 pluginManagement {
     repositories {
-        // Standard-Plugin-Quellen
         gradlePluginPortal()
         google()
         mavenCentral()
-
-        // Zusätzlicher Feed für Android-X Pre-Releases (enthält androidx.car.app)
-        maven {
-            url = uri("https://androidx.dev/storage/maven-releases/")
-        }
     }
 }
 
@@ -16,14 +10,8 @@ dependencyResolutionManagement {
     // Wir erlauben Repositories in diesem File und bevorzugen sie
     repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
     repositories {
-        // Standard-Repos
         google()
         mavenCentral()
-
-        // Zusätzlicher Feed für die Car App Library
-        maven {
-            url = uri("https://androidx.dev/storage/maven-releases/")
-        }
     }
 }
 
