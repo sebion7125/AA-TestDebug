@@ -1,8 +1,8 @@
 package com.example.aatestmenu
 
-import android.content.Intent
 import androidx.car.app.CarAppService
 import androidx.car.app.Session
+import androidx.car.app.SessionInfo
 import androidx.car.app.validation.HostValidator
 
 class HelloAutoService : CarAppService() {
